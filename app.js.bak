@@ -5,8 +5,6 @@ import dotenv from "dotenv";
 import {connectToDB} from "./utils/DBUtils.js"
 import path from 'path'
 
-// Add comments
-
 import {rentalProductRouter} from "./router/RentalProductRouter.js"
 import {paypalRouter} from "./router/PaypalRouter.js";
 import {userRouter} from "./router/UserRouter.js"
